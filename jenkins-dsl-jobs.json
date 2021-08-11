@@ -1,0 +1,15 @@
+{
+  "multiBranchJobs": [
+    {
+      "jobName": "Demo",
+      "jobDescription": "Demo",
+      "view": "Demo build",
+      "pipelineScriptPath": "Jenkinsfile",
+      "git": {
+        "repositoryId": "demo",
+        "repositoryUrl": "https://github.com/ecoupal-gop/demo.git",
+        "repositoryTrigger": "* * * * *"
+      }
+    }
+  ]
+}
